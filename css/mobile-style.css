@@ -59,7 +59,7 @@ header .navbar-brand {
 
 @media only screen and (max-width: 375px) {
   .section-4 .card {
-    width: 18em;
+    width: 21em;
   }
 header .navbar-brand {
     font-size: 1.0rem;
