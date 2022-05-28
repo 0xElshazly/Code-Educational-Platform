@@ -45,6 +45,15 @@
     width: 21em;
   }
 }
+@media only screen and (max-width: 480px) {
+  .section-4 .card {
+    width: 18em;
+  }
+header .navbar-brand {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+}
 
 /* screen size 375px */
 
