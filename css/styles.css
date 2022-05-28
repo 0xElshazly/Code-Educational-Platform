@@ -1,0 +1,359 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Global Selector */
+*{
+    /* allow to include padding and border in element total width and height */
+    box-sizing: border-box;
+}
+header, section, main, footer{
+    overflow-x: hidden;
+}
+/* Var In CSS */
+:root{
+    --font: "Roboto", sans-serif;
+    --bgGradient:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 18%, rgba(0,212,255,1) 100%);
+}
+/**********************************************/
+
+/* Start Header */
+header{
+    background: rgb(2,0,36);
+    background: var(--bgGradient);
+}
+header .navbar{
+    box-shadow: 0 8px 24px 0 rgb(0 44 62 / 4%), 0 8px 16px 0 rgb(0 44 62 / 4%);
+    background-color: #fff;
+    color: black;
+}
+header a{
+    font-family: var(--font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+.navbar-nav li a{
+    color: #090979;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #090979;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #00d4ff;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .active a{
+    background: #00d4ff;
+    border-radius: 2px;
+}
+header .navbar-brand{
+    padding-left: 8rem;
+    color: #090979;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+header .navbar-brand i{
+    font-size: 2.5rem;
+}
+header .navbar-brand:hover{
+    color: #00d4ff;
+}
+header .nav-link:hover{
+    color: #fff;
+    border-radius: 2px;
+    background-color: #00d4ff;
+}
+header .body{
+    margin-top: 10rem;
+}
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: Roboto;
+}
+header .row .col-md-5 img{
+    width: 90%;
+}
+header .container .col-md-7 h1{
+    color: white;
+    font-size: 8.0vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+header .container .col-md-7 h6{
+    letter-spacing: 2px;
+    color: rgba(245, 245, 245, 0.804);
+}
+header .container p{
+    color: rgba(245, 245, 245, 0.804);
+}
+header .container .col-md-7 button{
+    margin-top: 3vmin;
+    border-radius: 30px;
+    font-weight: bold;
+}
+header .container .col-md-7 button:hover{
+    cursor: pointer;
+    background: #00d4ff;
+    color: black;
+    border: 1px solid black;
+}
+/* End Header */
+/**********************************************/
+/* Start Main */
+
+/* Start Section 1 */
+.section-1{
+    padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .featureImg img{
+    
+    width: 100%;
+    border-radius: 0.2em;
+}
+.section-1 .row .col-md-6 .panel h1 {
+    padding-top: 9vmin;
+    font-size: 2.1em;
+    font-weight: bold;
+    color: #090979;
+}
+.section-1 .row .col-md-6 .panel p {
+    font-size: 1.1em;
+    color: #09097992;
+}
+/* End Section 1 */
+/**********************************************/
+
+/* Start Section 2 */
+.section-2 .cover{
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    width: 100%;
+    height: 55vmin;
+    position: relative;
+}
+.section-2 .cover .content{
+    /* background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%; */
+    padding-top: 19vmin;
+}
+.section-2 .cover .content > h1{
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.cover .content > p{
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+.numbers {
+    margin-top: -15vmin;
+}
+.numbers .rectangle{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    height: 9rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: -18px 19px 17px -4px rgba(0,0,0,0.75);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    transition: 0.7s ease;
+
+}
+.numbers .rectangle:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.numbers .rectangle h1{
+    font-size: 2.5rem;
+    color: #000851;
+}
+.numbers .rectangle p{
+    font-size: 1.3rem;
+    color: #000851;
+    font-weight: 500;
+    padding: 0 !important;
+}
+/* purchase */
+.purchase{
+    margin-bottom: 5rem;
+}
+.purchase > h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+}
+.purchase > p{
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+    font-weight: bold;
+}
+.purchase span{
+    color: #090979;
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+    transition: 0.7s ease;
+    
+}
+.purchase .cards .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: #0047ac;
+}
+.card-body .pricing{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+.card-body .pricing > h1{
+    font-size: 5vmin;
+    padding: 1em 0.5em;
+}
+.card-body .pricing .btn{
+    background: #00d4ff;
+    border: 0;
+    font-weight: bold;
+}
+.card-body .pricing .btn:hover{
+    cursor: pointer;
+    background:rgb(52, 58, 64);
+
+}   
+/* End Section 2 */
+/**********************************************/
+
+/* Start Section 3 */
+.section-3{
+    height: 50vmin;
+    margin-top: 15vmin;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+.section-3 .col-md-12>h1{
+    color: white;
+    padding: 2em 0 0.5em 0;
+    font-size: 6vmin;
+}
+.section-3 .desktop{
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1min;
+    width: 20rem;
+    transition: 0.7s ease;
+}
+.desktop h3{
+    font-size: 4vmin;
+}
+.desktop p{
+    font-size: 2vmin;
+}
+.desktop:hover{
+    cursor: pointer;
+    background:rgb(52, 58, 64);
+    color: white;
+    transform: scale(1.1);
+}
+/* End Section 3 */
+/**********************************************/
+
+/* Start Section 4 */
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+.section-4 .team{
+    padding: 0 4vmin 10vmin 4vmin;
+}
+.section-4 .card{
+    width: 25rem;
+    margin-top: 10vmin;
+    transition: 0.7s ease;
+}
+.section-4 .card:hover{
+    transform: scale(.9);
+
+}
+.section-4 .card img{
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.section-4 .team h3{
+    border-left: 5px solid #00d2ff;
+    padding-left: 1rem;
+}
+.section-4 .team .card p{
+    
+    color: rgba(43, 80, 116, 0.79) ;
+}
+.section-4 .team .card >a{
+    font-size: 1.5em;
+}
+.section-4 .team .card a i{
+    width:1.5rem;
+    font-size: 1.3em;
+    color: black;
+}
+.section-4 .team a i:hover{
+    color: #0047ac !important;
+}
+.section-4 .team .text-black-50{
+    color: #0047ac !important;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+/* End Section 4 */
+/**********************************************/
+
+/* End  Main*/
+/**********************************************/
+
+/* Start Footer*/
+footer{
+    background: var(--bgGradient);
+    padding: 14vmin 18vmin;
+    color: white !important;
+}
+/* End  Footer*/
+/**********************************************/
