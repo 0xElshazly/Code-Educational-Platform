@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Of Website -->
+    <title>Code Educational Platform</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/logo.svg" />
+    <!-- Font Awesome icons (free version)-->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- Bootstrap Theme-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Core theme CSS -->
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/mobile-style.css" rel="stylesheet" />
+    <!-- To support HTML5 in old browsers -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 9, 121, 1) 18%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        color: #090979;
+      }
+      .form {
+        padding: 10vmin 0;
+      }
+      .row {
+        background: white;
+        border-radius: 30px;
+        box-shadow: 12px 12px 22px grey;
+      }
+      .left {
+        padding: 5vmin !important;
+      }
+      img {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 100%;
+      }
+      .btn1 {
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 100%;
+        background-color: #00d4ff;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 1.6em;
+        transition: 0.7s ease;
+      }
+      .btn1:hover {
+        background: #090979;
+        border: 1px solid;
+        color: white;
+      }
+      a {
+        font-weight: 500;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      .pt-5 {
+        padding: 0 !important;
+      }
+      .par {
+        display: inline-block;
+        font-weight: 500;
+      }
+      .par2 {
+        display: inline-block;
+        font-weight: 500;
+        margin-top: 5vmin !important;
+      }
+      #showLog {
+        display: none;
+      }
+      #showEmail,
+      #showPass {
+        padding: 2vmin;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="form my-5 mx-5">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="left col-lg-5">
+            <img
+              src="../assets/images/calltoaction.svg"
+              class="img-fluid p-2 mt-5"
+              alt="Login"
+            />
+          </div>
+          <div class="col-lg-7 p-5 right">
+            <h1 class="pl-4 font-weight-bold">Login</h1>
+            <h4 class="pl-4">Welcome Back! 👋</h4>
+            <div class="container pt-5 d-flex">
+              <div class="col-md-8 p-4 pb-4" id="hideLog">
+                <form>
+                  <div>
+                    <label class="h5"
+                      ><i class="fa fa-envelope pr-2"></i>Email:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      placeholder="mohamedayman@gmail.com"
+                    />
+                    <span
+                      class="text-success float-right mr-2"
+                      id="email_status"
+                    ></span>
+                  </div>
+                  <div>
+                    <label class="h5 mt-4"
+                      ><i class="fa fa-lock pr-2"></i>Password:</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="pass"
+                      placeholder="mohamed2@"
+                    />
+                    <span
+                      class="text-success float-right mr-2"
+                      id="pass_status"
+                    ></span>
+                    <br />
+                    <a href="#" class="float-right mr-0 mb-3"
+                      >Forget Password ?</a
+                    >
+                  </div>
+
+                  <p
+                    class="btn btn-primary btn-block m-0 text-center par"
+                    id="loginbtn"
+                  >
+                    LOGIN
+                  </p>
+                </form>
+              </div>
+              <div class="col-md-12 p-4 pb-4" id="showLog">
+                <label class="h5 mt-5">
+                  <i class="fa fa-envelope-open pr-2"></i>Your Email Is:</label
+                >
+                <label class="h5 mt-5" id="showEmail"></label>
+                <i class="fa fa-check pr-2"></i>
+                <br />
+                <br />
+                <label class="h5 mt-1"
+                  ><i class="fa fa-lock-open pr-2"></i>Your Password Is:</label
+                >
+                <label class="h5 mt-1" id="showPass"></label>
+                <i class="fa fa-check pr-2"></i>
+                <p
+                  class="btn btn-primary btn-block m-0 text-center par2"
+                  id="backbtn"
+                >
+                  Back
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------------------------->
+    <!-- JQuery File (Animate Function)-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap JQuery File To Berform Events -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
