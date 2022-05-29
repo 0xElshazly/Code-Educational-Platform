@@ -1,0 +1,30 @@
+.co{
+    margin-top: 20vmin;
+}
+.co .row{
+    margin-top: 10vmin;
+    margin-bottom: 10vmin;
+}
+img{
+    width: 100%;
+    margin: 3em auto;
+}
+.co p{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+.col{
+    margin-bottom: 5vmin;
+    transition: 0.7s ease;
+
+}
+.col:hover{
+    transform: scale(1.1);
+
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 !important;
+}
