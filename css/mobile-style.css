@@ -1,0 +1,419 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop {
+    margin-bottom: 10vmin;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+  .section-4 .card {
+    width: 21em;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .section-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}
+
+/* 400px */
+@media only screen and (max-width: 400px) {
+  header .navbar-brand {
+    font-size: 4vmin;
+  }
+  header .navbar-brand i {
+    font-size: 5vmin;
+  }
+  header .navbar-brand button i {
+    font-size: 9vmin;
+  }
+  header .container .col-md-7 h6 {
+    letter-spacing: 1px;
+    color: rgba(245, 245, 245, 0.804);
+  }
+  .card {
+    margin-bottom: 4vmin;
+  }
+  header .row .col-md-7 {
+    padding: 5vmin;
+    padding-bottom: 10vmin;
+    font-family: Roboto;
+  }
+  header .row .col-md-5 img {
+    padding: 5vmin;
+    width: 80%;
+  }
+
+  .pe-5 {
+    padding-right: 0rem !important;
+  }
+  .section-1 .row .col-md-6 .featureImg img {
+    padding: 5vmin;
+  }
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+  .section-2 .cover .content {
+    padding-top: 12vmin;
+  }
+  .section-2 .cover .content > h1 {
+    font-size: 6vmin;
+
+    color: whitesmoke;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 0%,
+      rgba(9, 9, 121, 1) 40%,
+      rgba(2, 0, 36, 1) 100%
+    );
+  }
+  .cover .content > p {
+    font-size: 3vmin;
+    color: #e5e5e5;
+    padding: 5vmin;
+  }
+  .numbers {
+    margin-top: -9vmin;
+  }
+
+  .purchase > h1 {
+    padding-top: 12vmin;
+    padding-bottom: 25px;
+  }
+  .purchase > p {
+    font-size: 4vmin;
+    padding-bottom: 8vmin;
+    font-weight: bold;
+  }
+  .section-4 .container h1 {
+    font-size: 5vmin;
+  }
+  .section-4 .card {
+    width: 17em;
+  }
+  .section-4 .team h3 {
+    font-size: 6vmin;
+  }
+  .section-4 .team .card p {
+    font-size: 15px;
+    padding-left: 4vmin;
+    text-align: start;
+  }
+  .section-4 .team .card a i {
+    padding-left: 4vmin;
+  }
+  footer {
+    padding: 14vmin 10vmin;
+  }
+}
+
+/* 500 px */
+@media only screen and (max-width: 500px) {
+  header .row .col-md-7 {
+    padding: 12vmin 5vmin 17vmin;
+    font-family: Roboto;
+  }
+  header .row .col-md-5 img {
+    width: 80%;
+    padding: 5vmin;
+  }
+  .pe-5 {
+    padding: 5vmin !important;
+  }
+  .me-5 {
+    margin-right: 0rem !important;
+  }
+  .section-1 {
+    padding: 15vmin 0;
+  }
+  .section-1 .row .col-md-6 .featureImg img {
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  .section-1 .row .col-md-6 .panel h1 {
+    padding-top: 9vmin;
+    font-size: 27px;
+
+    padding-left: 1em;
+  }
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 17px;
+    padding: 1.5em;
+  }
+  .card {
+    margin-bottom: 3vmin;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 0%,
+      rgba(9, 9, 121, 1) 40%,
+      rgba(2, 0, 36, 1) 100%
+    );
+  }
+  .section-2 .cover .content > h1 {
+    font-size: 5vmin;
+
+    color: whitesmoke;
+  }
+  .cover .content > p {
+    font-size: 3vmin;
+    color: #e5e5e5;
+    padding: 5vmin;
+  }
+  .numbers {
+    margin-top: -9vmin;
+  }
+  .purchase > h1 {
+    padding-top: 12vmin;
+    padding-bottom: 25px;
+  }
+  .purchase > p {
+    font-size: 4vmin;
+    padding: 5vmin;
+
+    font-weight: bold;
+  }
+  footer {
+    padding: 14vmin 10vmin;
+  }
+}
+
+/* 800 */
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  header .navbar-brand {
+    padding-left: 2rem !important;
+  }
+  header .container .col-md-7 h6 {
+    letter-spacing: 1px;
+  }
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 15px;
+    color: #09097992;
+  }
+  .section-1 .pc {
+    display: none;
+  }
+  .pe-5 {
+    padding: 0rem !important;
+  }
+
+  .me-5 {
+    margin-right: 2rem !important;
+  }
+  .purchase > h1 {
+    padding: 10vmin;
+  }
+  .purchase > p {
+    font-size: 4vmin;
+    padding-bottom: 6vmin;
+    font-weight: bold;
+  }
+
+  .section-4 .card {
+    width: 14rem;
+  }
+  .ml-5,
+  .mx-5 {
+    margin-left: 0rem !important;
+  }
+  .section-4 .card h3 {
+    font-size: 19px;
+  }
+  .section-4 .card p {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .section-4 .card i {
+    padding-left: 10px;
+  }
+}
+/* 624 */
+@media only screen and (max-width: 624px) {
+  header .row .col-md-7 {
+    padding: 12vmin 5vmin 17vmin;
+    font-family: Roboto;
+  }
+  header .row .col-md-5 img {
+    width: 80%;
+    padding: 5vmin;
+  }
+  .pe-5 {
+    padding: 5vmin !important;
+  }
+  .me-5 {
+    margin-right: 0rem !important;
+  }
+  .section-1 {
+    padding: 15vmin 0;
+  }
+  .section-1 .row .col-md-6 .featureImg img {
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  .section-1 .row .col-md-6 .panel h1 {
+    padding-top: 9vmin;
+    font-size: 27px;
+
+    padding-left: 1em;
+  }
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 17px;
+    padding: 1.5em;
+  }
+  .card {
+    margin-bottom: 3vmin;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 0%,
+      rgba(9, 9, 121, 1) 40%,
+      rgba(2, 0, 36, 1) 100%
+    );
+  }
+  .section-2 .cover .content > h1 {
+    font-size: 5vmin;
+
+    color: whitesmoke;
+  }
+  .cover .content > p {
+    font-size: 3vmin;
+    color: #e5e5e5;
+    padding: 5vmin;
+  }
+  .numbers {
+    margin-top: -9vmin;
+  }
+  .purchase > h1 {
+    padding-top: 12vmin;
+    padding-bottom: 25px;
+  }
+  .purchase > p {
+    font-size: 4vmin;
+    padding: 5vmin;
+
+    font-weight: bold;
+  }
+  .section-4 .team .card a i {
+    padding-left: 4vmin;
+  }
+  footer {
+    padding: 14vmin 10vmin;
+  }
+}
+
+/* 350 */
+@media only screen and (max-width: 400px) and (min-width: 349px) {
+  header .navbar-brand {
+    padding-left: 0rem !important;
+  }
+  header .container .col-md-7 h6 {
+    letter-spacing: 1px;
+  }
+  .numbers .rectangle {
+    width: 12rem !important;
+    height: 8rem !important;
+    padding-top: 3.5vmin;
+    margin: 0.5em !important;
+  }
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 15px;
+    color: #09097992;
+  }
+  .section-1 .pc {
+    display: none;
+  }
+  .pe-5 {
+    padding: 0rem !important;
+  }
+
+  .me-5 {
+    margin-right: 2rem !important;
+  }
+  .purchase > h1 {
+    padding: 38px 17px 6px !important;
+
+  }
+  .purchase > p {
+    font-size: 4vmin;
+    padding-bottom: 6vmin;
+    font-weight: bold;
+  }
+  .section-3 .desktop{
+    width: 17rem !important;
+    
+  }
+  .section-3 p{
+    font-size: 10px;
+  }
+  .section-4 .card {
+    width: 17rem;
+  }
+  .ml-5,
+  .mx-5 {
+    margin-left: 1.5rem !important;
+  }
+  .section-4 .card h3 {
+    font-size: 19px;
+  }
+  .section-4 .card p {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .section-4 .card i {
+    padding-left: 10px;
+  }
+  footer{
+    padding: .5rem;
+  }
+}
